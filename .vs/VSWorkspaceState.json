@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\12-InterfaceAbstraction",
+    "\\12-InterfaceAbstraction\\Colculate",
+    "\\12-InterfaceAbstraction\\Colculate\\Colculate",
+    "\\13-NullableEnumStruct\\Kafe",
+    "\\13-NullableEnumStruct\\Kafe\\Sifaris"
   ],
+  "SelectedNode": "\\13-NullableEnumStruct",
   "PreviewInSolutionExplorer": false
 }
