@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sifarisler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1a72e7df823301c17b10e739b94f7cef654ae9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+249282dff11d590959ff6d0139c038cfb2872095")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sifarisler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sifarisler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
