@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Name": "Ali",
+    "Surname": "Memmedov",
+    "Age": 20,
+    "Grade": 85.5
+  },
+  {
+    "Id": 2,
+    "Name": "Leyla",
+    "Surname": "Hesenova",
+    "Age": 19,
+    "Grade": 92
+  },
+  {
+    "Id": 3,
+    "Name": "Vugar",
+    "Surname": "Aliyev",
+    "Age": 21,
+    "Grade": 78.5
+  },
+  {
+    "Id": 4,
+    "Name": "Nigar",
+    "Surname": "Ehmedova",
+    "Age": 20,
+    "Grade": 88
+  },
+  {
+    "Id": 5,
+    "Name": "Reshad",
+    "Surname": "Quliyev",
+    "Age": 22,
+    "Grade": 95.5
+  }
+]

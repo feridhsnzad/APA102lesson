@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\bin\Debug\net8.0\FaylReader.exe
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\bin\Debug\net8.0\FaylReader.deps.json
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\bin\Debug\net8.0\FaylReader.runtimeconfig.json
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\bin\Debug\net8.0\FaylReader.dll
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\bin\Debug\net8.0\FaylReader.pdb
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.AssemblyInfo.cs
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.sourcelink.json
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.dll
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\refint\FaylReader.dll
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.pdb
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\FaylReader.genruntimeconfig.cache
+C:\Users\user\Desktop\APA102lesson\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\FaylReader\FaylReader\obj\Debug\net8.0\ref\FaylReader.dll

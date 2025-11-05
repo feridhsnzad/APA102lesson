@@ -1,0 +1,5 @@
+1,Ali,Memmedov,20,85.5
+2,Leyla,Hesenova,19,92
+3,Vugar,Aliyev,21,78.5
+4,Nigar,Ehmedova,20,88
+5,Reshad,Quliyev,22,95.5
