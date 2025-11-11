@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\APA102lesson\18-ConsoleApp\CourseApplication.API\CourseApplication.API\obj\Debug\net8.0\CourseApplication.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\APA102lesson\18-ConsoleApp\CourseApplication.API\CourseApplication.API\obj\Debug\net8.0\CourseApplication.API.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\APA102lesson\18-ConsoleApp\CourseApplication.API\CourseApplication.API\obj\Debug\net8.0\CourseApplication.API.AssemblyInfo.cs
+C:\Users\user\Desktop\APA102lesson\18-ConsoleApp\CourseApplication.API\CourseApplication.API\obj\Debug\net8.0\CourseApplication.API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\APA102lesson\18-ConsoleApp\CourseApplication.API\CourseApplication.API\obj\Debug\net8.0\CourseApplication.API.sourcelink.json
