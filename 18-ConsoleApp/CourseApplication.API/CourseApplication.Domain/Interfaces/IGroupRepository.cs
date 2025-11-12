@@ -1,4 +1,6 @@
-﻿using CourseApplication.Domain.Entities;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using CourseApplication.Domain.Entities;
 
 namespace CourseApplication.Domain.Interfaces
 {
@@ -6,6 +8,6 @@ namespace CourseApplication.Domain.Interfaces
     {
         Task<IEnumerable<Group>> GetByTeacherAsync(string teacher);
         Task<IEnumerable<Group>> GetByRoomAsync(string room);
-        Task<IEnumerable<Group>> SearchByNameAsync(string name);
+        Task<IEnumerable<Group>> SearchByNameAsync(string namePart);
     }
 }

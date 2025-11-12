@@ -1,60 +1,59 @@
-﻿using CourseApplication.Domain.Entities;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using CourseApplication.Domain.Entities;
 using CourseApplication.Domain.Interfaces;
 using CourseApplication.Repository.Data;
-using System.Text.RegularExpressions;
 
 namespace CourseApplication.Repository.Repositories
 {
     public class GroupRepository : IGroupRepository
     {
-        private readonly InMemoryDbContext _context;
-        private int _idCounter = 1;
-
-        public GroupRepository(InMemoryDbContext context)
-        {
-            _context = context;
-        }
+        private readonly InMemoryDbContext _db;
+        private int _nextId = 1;
+        public GroupRepository(InMemoryDbContext db) => _db = db ?? throw new ArgumentNullException(nameof(db));
 
         public Task<Group> AddAsync(Group entity)
         {
-            entity.Id = _idCounter++;
-            _context.Groups.Add(entity);
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+            entity.Id = _nextId++;
+            _db.Groups.Add(entity);
             return Task.FromResult(entity);
         }
 
         public Task DeleteAsync(int id)
         {
-            var g = _context.Groups.FirstOrDefault(x => x.Id == id);
-            if (g != null)
-                _context.Groups.Remove(g);
+            var g = _db.Groups.FirstOrDefault(x => x.Id == id);
+            if (g != null) _db.Groups.Remove(g);
             return Task.CompletedTask;
         }
 
         public Task<IEnumerable<Group>> GetAllAsync()
-            => Task.FromResult(_context.Groups.AsEnumerable());
+            => Task.FromResult<IEnumerable<Group>>(_db.Groups.ToList());
 
         public Task<Group> GetByIdAsync(int id)
-            => Task.FromResult(_context.Groups.FirstOrDefault(x => x.Id == id));
+            => Task.FromResult(_db.Groups.FirstOrDefault(x => x.Id == id));
 
         public Task<Group> UpdateAsync(Group entity)
         {
-            var existing = _context.Groups.FirstOrDefault(x => x.Id == entity.Id);
-            if (existing != null)
-            {
-                existing.Name = entity.Name;
-                existing.Teacher = entity.Teacher;
-                existing.Room = entity.Room;
-            }
-            return Task.FromResult(entity);
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+            var g = _db.Groups.FirstOrDefault(x => x.Id == entity.Id);
+            if (g == null) return Task.FromResult<Group>(null);
+
+            g.Name = entity.Name;
+            g.Teacher = entity.Teacher;
+            g.Room = entity.Room;
+            return Task.FromResult(g);
         }
 
         public Task<IEnumerable<Group>> GetByTeacherAsync(string teacher)
-            => Task.FromResult(_context.Groups.Where(x => x.Teacher == teacher).AsEnumerable());
+            => Task.FromResult<IEnumerable<Group>>(_db.Groups.Where(x => string.Equals(x.Teacher, teacher, StringComparison.OrdinalIgnoreCase)).ToList());
 
         public Task<IEnumerable<Group>> GetByRoomAsync(string room)
-            => Task.FromResult(_context.Groups.Where(x => x.Room == room).AsEnumerable());
+            => Task.FromResult<IEnumerable<Group>>(_db.Groups.Where(x => string.Equals(x.Room, room, StringComparison.OrdinalIgnoreCase)).ToList());
 
-        public Task<IEnumerable<Group>> SearchByNameAsync(string name)
-            => Task.FromResult(_context.Groups.Where(x => x.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).AsEnumerable());
+        public Task<IEnumerable<Group>> SearchByNameAsync(string namePart)
+            => Task.FromResult<IEnumerable<Group>>(_db.Groups.Where(x => !string.IsNullOrEmpty(x.Name) && x.Name.IndexOf(namePart ?? "", StringComparison.OrdinalIgnoreCase) >= 0).ToList());
     }
 }

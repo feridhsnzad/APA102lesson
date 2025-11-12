@@ -1,4 +1,6 @@
-﻿using CourseApplication.Domain.Entities;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using CourseApplication.Domain.Entities;
 
 namespace CourseApplication.Domain.Interfaces
 {

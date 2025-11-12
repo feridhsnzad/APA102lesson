@@ -1,4 +1,7 @@
-﻿namespace CourseApplication.Domain.Interfaces
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace CourseApplication.Domain.Interfaces
 {
     public interface IRepository<T> where T : class
     {
