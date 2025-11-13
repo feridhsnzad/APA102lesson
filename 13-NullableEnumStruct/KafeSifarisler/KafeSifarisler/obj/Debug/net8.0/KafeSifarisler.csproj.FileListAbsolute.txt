@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\bin\Debug\net8.0\KafeSifarisler.exe
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\bin\Debug\net8.0\KafeSifarisler.deps.json
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\bin\Debug\net8.0\KafeSifarisler.runtimeconfig.json
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\bin\Debug\net8.0\KafeSifarisler.dll
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\bin\Debug\net8.0\KafeSifarisler.pdb
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.AssemblyInfo.cs
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.sourcelink.json
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.dll
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\refint\KafeSifarisler.dll
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.pdb
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\KafeSifarisler.genruntimeconfig.cache
+C:\Users\user\Desktop\APA102lesson\13-NullableEnumStruct\KafeSifarisler\KafeSifarisler\obj\Debug\net8.0\ref\KafeSifarisler.dll
