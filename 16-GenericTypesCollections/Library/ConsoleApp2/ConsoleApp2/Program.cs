@@ -10,7 +10,6 @@ namespace LibrarySystem
     {
         static void Main()
         {
-            // 1. Kitablar
             var book1 = new Book(1, "Martin Eden", "Jack London", 1909, 400);
             var book2 = new Book(2, "1984", "George Orwell", 1949, 328);
             var book3 = new Book(3, "Animal Farm", "George Orwell", 1945, 112);
@@ -56,7 +55,7 @@ namespace LibrarySystem
             member.BorrowBook(book3);
             member.BorrowBook(book4);
             member.BorrowBook(book5);
-            member.BorrowBook(book1); // limit xəbərdarlığı
+            member.BorrowBook(book1); 
 
             Console.WriteLine("\n=== Dictionary Test ===");
             var manager = new BookManager();

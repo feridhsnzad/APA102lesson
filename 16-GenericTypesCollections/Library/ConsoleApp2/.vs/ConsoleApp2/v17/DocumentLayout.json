@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\generics\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\generics\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\user\\desktop\\apa102lesson\\16-generictypescollections\\library\\consoleapp2\\consoleapp2\\generics\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7E8DDC-78F0-4E95-A338-C22DB1F2E165}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\generics\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,26 +50,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Library.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Generics\\Library.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Generics\\Library.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Generics\\Library.cs",
               "RelativeToolTip": "ConsoleApp2\\Generics\\Library.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T20:00:52.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BookManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Managers\\BookManager.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Managers\\BookManager.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Managers\\BookManager.cs",
               "RelativeToolTip": "ConsoleApp2\\Managers\\BookManager.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA8wEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T19:58:55.153Z",
               "EditorCaption": ""
@@ -82,14 +82,14 @@
               "RelativeDocumentMoniker": "ConsoleApp2\\Models\\Member.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Models\\Member.cs",
               "RelativeToolTip": "ConsoleApp2\\Models\\Member.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T19:40:22.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Models\\Book.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Models\\Book.cs",
@@ -102,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\16-GenericTypesCollections\\Library\\ConsoleApp2\\ConsoleApp2\\Program.cs",
               "RelativeToolTip": "ConsoleApp2\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwEEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T19:05:51.433Z",
               "EditorCaption": ""
