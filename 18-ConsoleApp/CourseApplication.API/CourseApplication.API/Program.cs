@@ -9,7 +9,7 @@ namespace CourseApplication.ConsoleApp
     {
         static async System.Threading.Tasks.Task Main(string[] args)
         {
-            // Setup (manual DI)
+           
             var db = new InMemoryDbContext();
             var groupRepo = new GroupRepository(db);
             var studentRepo = new StudentRepository(db);
@@ -27,65 +27,65 @@ namespace CourseApplication.ConsoleApp
                 {
                     switch (choice)
                     {
-                        case "1": // Create Group
+                        case "1": 
                             var g = ReadGroupInput();
                             var createdG = await groupService.CreateAsync(g);
                             Console.WriteLine($"✔ Group created with Id {createdG.Id}");
                             break;
 
-                        case "2": // Update group
+                        case "2": 
                             await UpdateGroupFlow(groupService);
                             break;
 
-                        case "3": // Delete group
+                        case "3": 
                             await DeleteGroupFlow(groupService, studentService);
                             break;
 
-                        case "4": // Get group by id
+                        case "4": 
                             await GetGroupByIdFlow(groupService);
                             break;
 
-                        case "5": // Get all groups by teacher
+                        case "5": 
                             await GetGroupsByTeacherFlow(groupService);
                             break;
 
-                        case "6": // Get all groups by room
+                        case "6": 
                             await GetGroupsByRoomFlow(groupService);
                             break;
 
-                        case "7": // Get all groups
+                        case "7": 
                             await ShowAllGroups(groupService);
                             break;
 
-                        case "8": // Create Student
+                        case "8": 
                             await CreateStudentFlow(studentService, groupService);
                             break;
 
-                        case "9": // Update Student
+                        case "9": 
                             await UpdateStudentFlow(studentService, groupService);
                             break;
 
-                        case "10": // Get student by id
+                        case "10": 
                             await GetStudentByIdFlow(studentService);
                             break;
 
-                        case "11": // Delete student
+                        case "11": 
                             await DeleteStudentFlow(studentService);
                             break;
 
-                        case "12": // Get students by age
+                        case "12": 
                             await GetStudentsByAgeFlow(studentService);
                             break;
 
-                        case "13": // Get all students by group id
+                        case "13": 
                             await GetStudentsByGroupFlow(studentService);
                             break;
 
-                        case "14": // Search groups by name
+                        case "14": 
                             await SearchGroupsByNameFlow(groupService);
                             break;
 
-                        case "15": // Search students by name or surname
+                        case "15":
                             await SearchStudentsFlow(studentService);
                             break;
 
@@ -201,7 +201,7 @@ namespace CourseApplication.ConsoleApp
                 return;
             }
 
-            // Check students in this group
+            
             var students = (await studentService.GetByGroupIdAsync(id)).ToList();
             if (students.Any())
             {
@@ -213,7 +213,7 @@ namespace CourseApplication.ConsoleApp
                     return;
                 }
 
-                // delete students first
+               
                 foreach (var s in students)
                     await studentService.DeleteAsync(s.Id);
             }

@@ -20,13 +20,13 @@ namespace CourseApplication.Service.Services
         public async Task<Student> CreateAsync(Student s)
         {
             ValidateStudentForCreate(s);
-            // business rule: group must exist
+           
             var grp = await _groupRepo.GetByIdAsync(s.GroupId);
             if (grp == null) throw new ArgumentException($"Group with Id {s.GroupId} does not exist.");
             return await _repo.AddAsync(s);
         }
 
-        public async Task<Student> UpdateAsync(Student s)
+        public async Task<Student?> UpdateAsync(Student s)
         {
             ValidateStudentForUpdate(s);
             var exists = await _repo.GetByIdAsync(s.Id);

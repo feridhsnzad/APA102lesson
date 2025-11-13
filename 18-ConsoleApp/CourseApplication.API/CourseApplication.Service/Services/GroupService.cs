@@ -17,7 +17,7 @@ namespace CourseApplication.Service.Services
             return _repo.AddAsync(group);
         }
 
-        public async Task<Group> UpdateAsync(Group group)
+        public async Task<Group?> UpdateAsync(Group group)
         {
             ValidateGroupForUpdate(group);
             var existing = await _repo.GetByIdAsync(group.Id);

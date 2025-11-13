@@ -33,7 +33,9 @@ namespace CourseApplication.Repository.Repositories
             => Task.FromResult<IEnumerable<Group>>(_db.Groups.ToList());
 
         public Task<Group> GetByIdAsync(int id)
-            => Task.FromResult(_db.Groups.FirstOrDefault(x => x.Id == id));
+        {
+            return Task.FromResult(_db.Groups.FirstOrDefault(x => x.Id == id));
+        }
 
         public Task<Group> UpdateAsync(Group entity)
         {
