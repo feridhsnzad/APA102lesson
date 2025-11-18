@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header_area{
+    padding: 30px;
+    background-color: rgb(69, 79, 146);
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}   
