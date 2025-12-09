@@ -1,0 +1,30 @@
+/* styles.css — Sadə versiya */
+
+/* Masthead sahəsi */
+.masthead {
+  min-height: 60vh;
+  background: #4e73df;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* Kartların hover effekti (çox sadə) */
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+/* Navbar ilə üst hissənin toqquşmaması üçün */
+body {
+  padding-top: 70px;
+}
+
+/* Mobil versiya üçün sadə düzəliş */
+@media (max-width: 768px) {
+  .masthead {
+    padding: 40px 15px;
+  }
+}
