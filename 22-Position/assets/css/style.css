@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .basliq{
     height: 10px;
     
@@ -11,4 +12,19 @@
     position: relative;
     height: 30px;
     
+=======
+.basliq{
+    height: 10px;
+    
+}
+.secim{
+    position: absolute;
+    right: 20px;
+    top: 1px;
+}
+.mallar{
+    position: relative;
+    height: 30px;
+    
+>>>>>>> c14c9742bc1e765dbec0ffc6e8d063c69789b72c
 }

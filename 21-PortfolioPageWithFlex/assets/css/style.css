@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #header_area{
     background-color: #2c3e5d;
     height: 104px;
@@ -287,3 +288,18 @@ textarea.form-control {
     margin-top: 60 px;
     font-size: 16px;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header_area{
+    padding: 30px;
+    background-color: rgb(69, 79, 146);
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}   
+>>>>>>> c14c9742bc1e765dbec0ffc6e8d063c69789b72c
