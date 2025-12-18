@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|c:\\users\\user\\desktop\\apa102lesson\\32.mvc intro\\mvsintro\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|c:\\users\\user\\desktop\\apa102lesson\\32.mvc intro\\mvsintro\\views\\shared\\_chris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|solutionrelative:views\\shared\\_chris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|c:\\users\\user\\desktop\\apa102lesson\\32.mvc intro\\mvsintro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|c:\\users\\user\\desktop\\apa102lesson\\32.mvc intro\\mvsintro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|c:\\users\\user\\desktop\\apa102lesson\\32.mvc intro\\mvsintro\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|solutionrelative:views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|c:\\users\\user\\desktop\\apa102lesson\\32.mvc intro\\mvsintro\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|solutionrelative:views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|c:\\users\\user\\desktop\\apa102lesson\\32.mvc intro\\mvsintro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{704455CC-AEF6-4665-8FC7-C34C3A2700FB}|MVSINTRO.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\_ViewStart.cshtml*",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T10:28:14.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:48:56.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T09:48:57.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Chris.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Shared\\_Chris.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Chris.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Shared\\_Chris.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Chris.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T10:22:21.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "error.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Home\\error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\error.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Home\\error.cshtml",
+              "RelativeToolTip": "Views\\Home\\error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T09:26:02.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T22:13:13.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Home\\detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\detail.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\32.MVC Intro\\MVSINTRO\\Views\\Home\\detail.cshtml",
+              "RelativeToolTip": "Views\\Home\\detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T22:16:07.004Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
