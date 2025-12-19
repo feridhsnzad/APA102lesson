@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\38.category update-delete, slider index\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\38.category update-delete, slider index\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\38.category update-delete, slider index\\utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileSize.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Enums\\FileSize.cs",
+              "RelativeDocumentMoniker": "Utilities\\Enums\\FileSize.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Enums\\FileSize.cs",
+              "RelativeToolTip": "Utilities\\Enums\\FileSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:38:39.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileValidator.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Extensions\\FileValidator.cs",
+              "RelativeDocumentMoniker": "Utilities\\Extensions\\FileValidator.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Extensions\\FileValidator.cs",
+              "RelativeToolTip": "Utilities\\Extensions\\FileValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:32:23.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Areas\\AdminPanel\\Controllers\\SliderController.cs*",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwC0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:43:21.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
