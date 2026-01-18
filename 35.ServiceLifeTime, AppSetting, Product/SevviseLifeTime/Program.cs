@@ -11,6 +11,10 @@ builder.Services.AddDbContext<AppDbContext>(opt=>
 var app = builder.Build();
 
 app.UseStaticFiles();
+app.MapControllerRoute(
+    "admin",
+    "{area:exists}/{controller=dashboard}/{action=Index}/{id?}"
+    );
 
 app.MapControllerRoute(
     "default",

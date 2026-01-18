@@ -30,11 +30,16 @@ namespace FrontToBack.Controllers
         //    return Ok();
         //}
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Slider>sliders=_context.Sliders.OrderBy(s=>s.Order).ToList();
-            List<Product> products = _context.Products.Include(p=>p.ProductImages.Where(pi=>pi.IsPrimary !=null)).ToList();
-
+            List<Slider>sliders=await _context.Sliders
+                .OrderBy(s=>s.Order)
+                .ToListAsync();
+            List<Product> products = await _context.Products
+                .Include(p=>p.ProductImages.Where(pi=>pi.IsPrimary !=null))
+                .ToListAsync();
+            //List<Shipping> shippings = await _context.Shippings
+              //.ToListAsync();
             //List<Slider> sliders = _context.Sliders.Where(s => !s.IsDeleted).ToList();
             HomeVM homeVM = new HomeVM
             {

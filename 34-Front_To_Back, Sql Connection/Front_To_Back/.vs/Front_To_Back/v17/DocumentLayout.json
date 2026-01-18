@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\34-Front_To_Back, Sql Connection\\Front_To_Back\\Views\\Shop\\Index.cshtml",
               "RelativeToolTip": "Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAABoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-02T12:20:24.272Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T12:20:13.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-02T12:20:13.673Z"
             }
           ]
         }

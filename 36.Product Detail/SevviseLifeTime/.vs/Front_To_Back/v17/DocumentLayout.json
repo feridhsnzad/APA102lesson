@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\35.servicelifetime, appsetting, product\\sevviselifetime\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\36.product detail\\sevviselifetime\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\35.servicelifetime, appsetting, product\\sevviselifetime\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\36.product detail\\sevviselifetime\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\35.servicelifetime, appsetting, product\\sevviselifetime\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\36.product detail\\sevviselifetime\\fronttoback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:fronttoback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\36.product detail\\sevviselifetime\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\36.product detail\\sevviselifetime\\viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\36.product detail\\sevviselifetime\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\35.servicelifetime, appsetting, product\\sevviselifetime\\viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\36.product detail\\sevviselifetime\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,52 +58,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DetailVM.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\ViewModels\\DetailVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DetailVM.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\ViewModels\\DetailVM.cs",
-              "RelativeToolTip": "ViewModels\\DetailVM.cs",
+              "DocumentIndex": 2,
+              "Title": "FrontToBack.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\FrontToBack.csproj",
+              "RelativeDocumentMoniker": "FrontToBack.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\FrontToBack.csproj",
+              "RelativeToolTip": "FrontToBack.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:49:01.169Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-07T22:05:09.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T19:26:25.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAAAJkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T18:59:18.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetailVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\ViewModels\\DetailVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DetailVM.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\ViewModels\\DetailVM.cs",
+              "RelativeToolTip": "ViewModels\\DetailVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T20:49:01.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T20:46:39.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T20:46:39.923Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\Controllers\\ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Controllers\\ShopController.cs",
               "RelativeToolTip": "Controllers\\ShopController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T12:36:51.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T12:36:51.446Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\Views\\Shop\\Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Views\\Shop\\Detail.cshtml",
               "RelativeDocumentMoniker": "Views\\Shop\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\35.ServiceLifeTime, AppSetting, Product\\SevviseLifeTime\\Views\\Shop\\Detail.cshtml*",
-              "RelativeToolTip": "Views\\Shop\\Detail.cshtml*",
-              "ViewState": "AgIAAEoCAAAAAAAAAAAAALwAAAA2AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\36.Product Detail\\SevviseLifeTime\\Views\\Shop\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Detail.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-28T12:36:23.005Z",
               "EditorCaption": ""

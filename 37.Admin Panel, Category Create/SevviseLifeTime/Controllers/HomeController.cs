@@ -3,6 +3,7 @@ using FrontToBack.Models;
 using FrontToBack.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace FrontToBack.Controllers
 {
@@ -30,14 +31,21 @@ namespace FrontToBack.Controllers
         //    return Ok();
         //}
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Slider>sliders=_context.Sliders.OrderBy(s=>s.Order).ToList();
-            List<Product> products = _context.Products.Include(p=>p.ProductImages.Where(pi=>pi.IsPrimary !=null)).ToList();
+            List<Slider>sliders=await _context.Sliders
+                .OrderBy(s=>s.Order)
+                .ToListAsync();
+            //List<>Shipping> shippings =await _context.Shippings.ToListAsysn();
+            List<Product> products =await _context.Products.
+                Include(p=>p.ProductImages
+                .Where(pi=>pi.IsPrimary !=null))
+                .ToListAsync();
 
             //List<Slider> sliders = _context.Sliders.Where(s => !s.IsDeleted).ToList();
             HomeVM homeVM = new HomeVM
             {
+                //Shipping= shipping,
                 Sliders = sliders,
                 Products = products,
             };
