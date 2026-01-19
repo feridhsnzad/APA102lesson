@@ -1,0 +1,53 @@
+﻿@model DetailsSliderVM
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Details Table</h4>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Image
+                                </th>
+                                <th>
+                                    No№
+                                </th>
+                                <th>
+                                    Title
+                                </th>
+                                <th>
+                                    SubTitle
+                                </th>
+                                <th>
+                                    Settings
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="~/assets/images/website-images/@Model.ImageUrl" alt="Slider Image" style="width: 150px; height: auto;" />
+                                </td>
+                                <td>
+                                    <p>@Model.Id</p>
+                                </td>
+                                <td>
+                                    <p>@Model.Title</p>
+                                </td>
+                                <td>
+                                    <p>@Model.SubTitle</p>
+                                </td>
+                                <td>
+                                    <a asp-action="index" class="btn btn-primary"> Back</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

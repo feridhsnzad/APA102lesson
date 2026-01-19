@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\APA102lesson\\pronia-apa102\\SevviseLifeTime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\pronia-apa102\\sevviselifetime\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\pronia-apa102\\sevviselifetime\\areas\\adminpanel\\controllers\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\controllers\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|c:\\users\\user\\desktop\\apa102lesson\\pronia-apa102\\sevviselifetime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1C00C58-F621-4540-9900-FF23EDA8E54A}|FrontToBack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -43,40 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\pronia-apa102\\SevviseLifeTime\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\pronia-apa102\\SevviseLifeTime\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:07:09.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\pronia-apa102\\SevviseLifeTime\\Areas\\AdminPanel\\Controllers\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\pronia-apa102\\SevviseLifeTime\\Areas\\AdminPanel\\Controllers\\Dashboard.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\Dashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:10:14.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\APA102lesson\\pronia-apa102\\SevviseLifeTime\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\APA102lesson\\pronia-apa102\\SevviseLifeTime\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:05:34.66Z"
+              "WhenOpened": "2026-01-19T15:05:34.66Z",
+              "EditorCaption": ""
             }
           ]
         }

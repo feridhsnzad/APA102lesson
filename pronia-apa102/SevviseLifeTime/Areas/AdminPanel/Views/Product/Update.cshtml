@@ -1,0 +1,93 @@
+﻿@using FrontToBack.Areas.AdminPanel.ViewModels
+@model UpdateProductVM
+@{
+    ProductImage mainImage = Model.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true);
+    ProductImage hoverImage = Model.ProductImages.FirstOrDefault(pi => pi.IsPrimary == false);
+
+}
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update Product</h4>
+                <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="MainPhoto">Main Photo</label>
+                        <img style="width:150px; height:150px" src="~/assets/images/website-images/@mainImage.ImageUrl" />
+                        <br/>
+                        <input asp-for="MainPhoto" class="form-control" accept="image/*" >
+                        <span asp-validation-for="MainPhoto" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="HoverPhoto">HoverPhoto</label>
+                        <img style ="width:150px; height:150px" src="~/assets/images/website-images/@hoverImage.ImageUrl" />
+                        <br/>
+                        <input asp-for="HoverPhoto" class="form-control" accept="image/*">
+                        <span asp-validation-for="HoverPhoto" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group d-flex">
+                            @foreach (ProductImage addImage in Model.ProductImages.Where(pi=>pi.IsPrimary == null).ToList())
+                            {
+                                <div style="position:relative">
+                                    <img style="width:150px; height:150px" src="~/assets/images/website-images/@addImage.ImageUrl" />
+                                    <i class=" cus_btn mdi mdi-close-circle" style="cursor:pointer; position:absolute; top:10px;right:10px"></i>
+                                <input asp-for="ImageIds" type="hidden" value="@addImage.Id" />
+                                </div>
+                            }
+                    </div>
+                    <div class="form-group">
+                        <label for="AdditionalPhotos">Additional Photo</label>
+                        <input asp-for="AdditionalPhotos" class="form-control" accept="image/*">
+                        <span asp-validation-for="ImageIds" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input asp-for="Name" class="form-control" placeholder="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Price">Price</label>
+                        <input asp-for="Price" class="form-control" placeholder="Price">
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="CategoryId">Category</label>
+                        <select asp-for="CategoryId" class="form-control" asp-items="new SelectList(Model.Categories,nameof(Category.Id),nameof(Category.Name))">
+                            <option selected disabled>-- Select Category --</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="TagIds">Tag</label>
+                        <select asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Tags, nameof(Tag.Id), nameof(Tag.Name))">
+                        </select>
+                        <span asp-validation-for="TagIds" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="SKU">SKU</label>
+                        <input asp-for="SKU" class="form-control" placeholder="SKU">
+                        <span asp-validation-for="SKU" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">description</label>
+                        <textarea asp-for="description" class="form-control" placeholder="description"></textarea>
+                        <span asp-validation-for="description" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <button asp-action="index" class="btn btn-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section DeleteBtns{
+    <script>
+        var btns = document.querySelectorAll(".cus_btn");
+        for (let i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click",  function(){
+                btns[i].parentElement.remove();
+            });
+        }
+    </script>
+}
