@@ -160,7 +160,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
             {
                 Name = createProductVM.Name,
                 Price = createProductVM.Price,
-                description = createProductVM.description,
+                Description = createProductVM.description,
                 SKU = createProductVM.SKU,
                 CategoryId = createProductVM.CategoryId.Value,
                 ProductImages = new List<ProductImage> { mainImage,hoverImage}
@@ -224,7 +224,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
             {
                 Name = existedproduct.Name,
                 Price = existedproduct.Price,
-                description = existedproduct.description,
+                description = existedproduct.Description,
                 SKU = existedproduct.SKU,
                 CategoryId = existedproduct.CategoryId,
                 TagIds = existedproduct.ProductTags.Select(pt => pt.TagId).ToList(),
@@ -437,7 +437,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
 
             existedproduct.Name = updateProductVM.Name;
             existedproduct.Price = updateProductVM.Price;
-            existedproduct.description = updateProductVM.description;
+            existedproduct.Description = updateProductVM.description;
             existedproduct.SKU = updateProductVM.SKU;
             existedproduct.CategoryId = updateProductVM.CategoryId.Value;
 

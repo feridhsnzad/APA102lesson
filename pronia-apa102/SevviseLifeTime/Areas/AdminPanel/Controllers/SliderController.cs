@@ -32,7 +32,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
                 {
                     Id = s.Id,
                     Title = s.Title,
-                    ImageUrl = s.ImageUrl,
+                    ImageUrl = s.ImageURL,
                     Order = s.Order
                 })
                 .ToListAsync();
@@ -69,7 +69,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
                 SubTitle = sliderCreateVM.SubTitle,
                 Description = sliderCreateVM.Description,
                 Order = sliderCreateVM.Order,
-                ImageUrl = await sliderCreateVM.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images")
+                ImageURL = await sliderCreateVM.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images")
             };
 
 
@@ -89,7 +89,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
 
             if (slider == null) return NotFound();
 
-            slider.ImageUrl.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+            slider.ImageURL.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
 
             _context.Sliders.Remove(slider);
 
@@ -110,7 +110,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
                 Title = slider.Title,
                 SubTitle = slider.SubTitle,
                 Order = slider.Order,
-                ImageUrl = slider.ImageUrl
+                ImageUrl = slider.ImageURL
             };
             return View(detailsSliderVM);
         }
@@ -128,7 +128,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
                 SubTitle = slider.SubTitle,
                 Description = slider.Description,
                 Order = slider.Order,
-                ImageUrl = slider.ImageUrl
+                ImageUrl = slider.ImageURL
             };
             return View(sliderUpdateVM);
 
@@ -157,7 +157,7 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
                 
                 string fileName = await sliderUpdateVM.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images");
                 sliderUpdateVM.ImageUrl.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
-                slider.ImageUrl = fileName;
+                slider.ImageURL = fileName;
             }
             slider.Title = sliderUpdateVM.Title;
             slider.SubTitle = sliderUpdateVM.SubTitle;
